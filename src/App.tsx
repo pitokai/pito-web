@@ -1,7 +1,9 @@
+import { HomeHero } from "./contents";
+
 export default function App() {
   return (
-    <div>
-      <h1>hello world</h1>
+    <div className="border-t-[30px] border-teal-500">
+      <HomeHero />
     </div>
   );
 }
